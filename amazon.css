@@ -133,3 +133,20 @@ font-size: 30px;
 font-size: 0.85rem;
 font-weight: 700; 
 }
+/* Panels */
+.panel {
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-ops{
+    width: 93%;
+    font-size: 0.9rem;
+}
