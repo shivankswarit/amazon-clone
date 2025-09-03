@@ -24,9 +24,11 @@
 }
 
 .logo {
-    background-image: url('NicePng_amazon-logo-png_167642.png');
+    background-image: url('amazon-logo.png');
     height: 55px;   
     width: 114px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
