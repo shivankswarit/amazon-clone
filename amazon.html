@@ -1,87 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AMAZON</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="amazon.css">
-</head>    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMAZON</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="amazon.css">
+</head>
 <body>
- <header>
+  <header>
     <div class="navbar">
-        <div class="nav-logo border">
-            <div class="logo">    
-            </div>
-        </div>
-  
-    <div class="nav-adress border">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
+
+      <div class="nav-adress border">
         <p class="add-first">Deliver to</p>
         <div class="add-icon">
-        <i class="fa-solid fa-location-dot"></i>
-        <p class="add-second">India</p>
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-second">India</p>
         </div>
-    </div>
-<div class="nav-search">
-    <select class="search-select">
-        <option>All</option>
-    </select>
-    <input placeholder="Search Amazon" class="search-input">
-    <div class="search-icon">
-        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
 
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" class="search-input">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="nav-lang border">
+        <i class="fa-solid fa-globe"></i>
+        <select class="lang-select">
+          <option value="en">🇺🇸 EN</option>
+          <option value="hi">🇮🇳 हिन्दी</option>
+          <option value="ta">தமிழ்</option>
+          <option value="bn">বাংলা</option>
+          <option value="te">తెలుగు</option>
+        </select>
+      </div>
+
+      <div class="nav-signin border">
+        <p><span>Hello, sign in</span></p>
+        <p class="nav-second">Account & List</p>
+      </div>
+
+      <div class="nav-return border">
+        <p><span>Returns</span></p>
+        <p class="nav-second">& Orders</p>
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
     </div>
-</div>
-<div class="nav-lang border">
-    <i class="fa-solid fa-globe"></i>
-    <select class="lang-select">
-        <option value="en">🇺🇸 EN</option>
-        <option value="hi">🇮🇳 हिन्दी</option>
-        <option value="ta">தமிழ்</option>
-        <option value="bn">বাংলা</option>
-        <option value="te">తెలుగు</option>
-    </select>
-</div>
-<div class="nav-signin border">
-    <p><span>Hello,sign in</span></p>
-    <p class="nav-second">Account & List</p>
-</div>
-<div class="nav-return border">
-    <p><span>Returns</span></p>
-    <p class="nav-second">& Orders</p>
-</div>
-<div class="nav-cart border">
-    <i class="fa-solid fa-cart-shopping"></i>
-    Cart
-</div>
- </div>
- <div class="panel">
-     <div class="panel-all">
+
+    <div class="panel">
+      <div class="panel-all">
         <i class="fa-solid fa-bars"></i>
         All
-   </div>
-    <div class="panel-ops">
+      </div>
+      <div class="panel-ops">
         <p>Today's Deals</p>
         <p>Prime Video</p>
         <p>Registry</p>
         <p>Customer Service</p>
         <p>Gift Cards</p>
         <p>Sell</p>
+      </div>
     </div>
- </div> 
- </header>
-    <div class="hero-section">
-        <div class="hero-msg">
-            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.com/">Click here to go to amazon.in </a> </p>
+  </header>
+
+  <div class="hero-section">
+    <div class="hero-msg">
+      <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.com/">Click here to go to amazon.in</a></p>
+    </div>
+  </div>
+
+  <div class="shop-section">
+    <div class="box1 box">
+      <div class="box-content">
+        <h2>Get your game on</h2>
+        <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+        <p>Shop Gaming</p>
+      </div>
+    </div>
+
+    <div class="box2 box">
+      <div class="box-content">
+        <h2>New home arrivals under $50</h2>
+        <div class="grid">
+          <div class="grid-item">
+            <img src="box2_grid1.jpg" alt="Kitchen & Dining">
+            <p>Kitchen & Dining</p>
+          </div>
+          <div class="grid-item">
+            <img src="box2_grid2.jpg" alt="Home Improvement">
+            <p>Home Improvement</p>
+          </div>
+          <div class="grid-item">
+            <img src="box2_grid3.jpg" alt="Décor">
+            <p>Décor</p>
+          </div>
+          <div class="grid-item">
+            <img src="box2_grid4.jpg" alt="Bedding & Bath">
+            <p>Bedding & Bath</p>
+          </div>
         </div>
+        <a href="#">Shop the latest from Home</a>
+      </div>
     </div>
 
+    <div class="box3 box">
+      <div class="box-content">
+        <h2>9.9 Super Shopping Day</h2>
+        <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+        <p>Explore Deals</p>
+      </div>
+    </div>
 
+    <div class="box4 box">
+      <div class="box-content">
+        <h2>Shop for your home essentials</h2>
+        <div class="grid">
+          <div class="grid-item">
+            <img src="box4_grid1.jpg" alt="Cleaning Tools">
+            <p>Cleaning Tools</p>
+          </div>
+          <div class="grid-item">
+            <img src="box4_grid2.jpg" alt="Home Storage">
+            <p>Home Storage</p>
+          </div>
+          <div class="grid-item">
+            <img src="box4_grid3.jpg" alt="Home Decor">
+            <p>Home Decor</p>
+          </div>
+          <div class="grid-item">
+            <img src="box4_grid4.jpg" alt="Bedding">
+            <p>Bedding</p>
+          </div>
+        </div>
+        <a href="#">Discover more in Home</a>
+      </div>
+    </div>
 
+    <div class="box5 box">
+      <div class="box-content">
+        <h2>Shop for your home essentials</h2>
+        <div class="grid">
+          <div class="grid-item">
+            <img src="box5_grid1.jpg" alt="Jeans under $50">
+            <p>Jeans under $50</p>
+          </div>
+          <div class="grid-item">
+            <img src="box5_grid2.jpg" alt="Tops under $25">
+            <p>Tops under $25</p>
+          </div>
+          <div class="grid-item">
+            <img src="box5_grid3.jpg" alt="Dresses under $30">
+            <p>Dresses under $30</p>
+          </div>
+          <div class="grid-item">
+            <img src="box5_grid4.jpg" alt="Shoes under $50">
+            <p>Shoes under $50</p>
+          </div>
+        </div>
+        <a href="#">See all deals</a>
+      </div>
+    </div>
 
+    <div class="box6 box">
+      <div class="box-content">
+        <h2>Top categories in Kitchen appliances</h2>
+        <div class="grid">
+          <div class="grid-item">
+            <img src="box6_grid1.jpg" alt="Cooker">
+            <p>Cooker</p>
+          </div>
+          <div class="grid-item">
+            <img src="box6_grid2.jpg" alt="Coffee">
+            <p>Coffee</p>
+          </div>
+          <div class="grid-item">
+            <img src="box6_grid3.jpg" alt="Pots and pans">
+            <p>Pots and pans</p>
+          </div>
+          <div class="grid-item">
+            <img src="box6_grid4.jpg" alt="Kettles">
+            <p>Kettles</p>
+          </div>
+        </div>
+        <a href="#">Explore all products in Kitchen</a>
+      </div>
+    </div>
 
+    <div class="box7 box">
+      <div class="box-content">
+        <h2>Refresh your space</h2>
+              <div class="grid">
+          <div class="grid-item">
+            <img src="box7_grid1.jpg" alt="Dining">
+            <p>Dining</p>
+          </div>
+          <div class="grid-item">
+            <img src="box7_grid2.jpg" alt="Home">
+            <p>Home</p>
+          </div>
+          <div class="grid-item">
+            <img src="box7_grid3.jpg" alt="Kitchen">
+            <p>Kitchen</p>
+          </div>
+          <div class="grid-item">
+            <img src="box7_grid4.jpg" alt="Health and Beauty">
+            <p>Health and Beauty</p>
+          </div>
+        </div>
+        <a href="#">See more</a>
+      </div>
+    </div>
 
-
-
+    <div class="box8 box">
+      <div class="box-content">
+        <h2>Fashion trends you like</h2>
+        <div class="grid">
+          <div class="grid-item">
+            <img src="box8_grid1.jpg" alt="Dresses">
+            <p>Dresses</p>
+          </div>
+          <div class="grid-item">
+            <img src="box8_grid2.jpg" alt="Knits">
+            <p>Knits</p>
+          </div>
+          <div class="grid-item">
+            <img src="box8_grid3.jpg" alt="Jackets">
+            <p>Jackets</p>
+          </div>
+          <div class="grid-item">
+            <img src="box8_grid4.jpg" alt="Jewelry">
+            <p>Jewelry</p>
+          </div>
+        </div>
+        <a href="#">Explore more</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
