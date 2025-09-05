@@ -5,7 +5,7 @@ This project is focused on replicating the **UI/UX** of Amazon to practice front
 
 ---
 
-## 🚀 Features (Work in Progress)  
+## 🚀 Features  
 - ✅ Amazon-style header with logo, search bar, and icons  
 - ✅ Navigation bar  
 - ✅ Product listing section  
