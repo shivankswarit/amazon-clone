@@ -314,6 +314,7 @@ ul p{
     font-size: 40px;
     background: linear-gradient(135deg, #2c3e50, #bdc3c7);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: block;
     text-align: center;
